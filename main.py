@@ -1,3 +1,5 @@
 import telebot
 
-bot =telebot.TeleBot()
+
+key = ''
+bot = telebot.TeleBot(key)
