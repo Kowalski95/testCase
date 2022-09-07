@@ -1,6 +1,3 @@
-print('Hi')
-print('fuck')
+import telebot
 
-print('123')
-print('ff')
-print(1)
+bot =telebot.TeleBot()
