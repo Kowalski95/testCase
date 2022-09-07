@@ -1,7 +1,7 @@
 import telebot
 
 
-key = open('key.txt', 'r')
+key = open('key.txt', 'r')              # В данной переменной храниться токен ботта
 bot = telebot.TeleBot(key.readline())
 
 @bot.message_handler(commands=['start'])
