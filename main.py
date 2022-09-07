@@ -11,7 +11,8 @@ def send_welcome(message):
 
 @bot.message_handler(content_types=['text'])
 def message_input_step(message):
-    print(message.text)
-    bot.send_message(message.chat.id, message.text)
+    bot.send_message(message.chat.id,'Добрый день ' + message.chat.first_name)
+
+
 
 bot.polling()
