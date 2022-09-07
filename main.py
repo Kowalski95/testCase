@@ -1,4 +1,5 @@
 print('Hi')
-print('fuck')
+print('sdqwe')
 
 print('123')
+print(1)
