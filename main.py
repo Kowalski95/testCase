@@ -1,11 +1,4 @@
 import telebot
-from playr import Playr
-
-
-p = Playr()
-p.nameHeroy('Luk')
-print(p.name)
-
 
 
 key = open('key.txt', 'r')              # В данной переменной храниться токен ботта

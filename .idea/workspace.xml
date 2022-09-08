@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84756076-261b-4b57-afe6-c20d9d4e6c93" name="Changes" comment="per">
-      <change afterPath="$PROJECT_DIR$/playr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="84756076-261b-4b57-afe6-c20d9d4e6c93" name="Changes" comment="New playr.py &#10;get name playr" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662554598552</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="New playr.py &#10;get name playr">
+      <created>1662629814291</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662629814291</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -185,6 +188,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="next" />
     <MESSAGE value="per" />
-    <option name="LAST_COMMIT_MESSAGE" value="per" />
+    <MESSAGE value="New playr.py &#10;get name playr" />
+    <option name="LAST_COMMIT_MESSAGE" value="New playr.py &#10;get name playr" />
   </component>
 </project>
