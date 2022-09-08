@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84756076-261b-4b57-afe6-c20d9d4e6c93" name="Changes" comment="New playr.py &#10;get name playr" />
+    <list default="true" id="84756076-261b-4b57-afe6-c20d9d4e6c93" name="Changes" comment="New playr.py &#10;get name playr">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
