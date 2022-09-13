@@ -1,19 +1,11 @@
-from aiogram import types
 from aiogram.utils import executor
 from create_bot import dp
-
+from actions.greetings import greetingsBot
 async def on_start(_):
     print('go')
 
-
-
-# @dp.message_handler(content_types=types.ContentTypes.NEW_CHAT_MEMBERS)
-# async def send_welcome(message: types.Message):
-
-
-
-# import chat
-# chat.create_chat(dp)
+# ID-Chat = -659509581
+greetingsBot(dp)
 
 
 

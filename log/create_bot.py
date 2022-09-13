@@ -6,3 +6,4 @@ from config import TOKEN
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
+# print(bot.id)
