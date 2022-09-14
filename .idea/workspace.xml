@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84756076-261b-4b57-afe6-c20d9d4e6c93" name="Changes" comment="aiogram">
-      <change afterPath="$PROJECT_DIR$/base.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/base.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/base.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/mainMenu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/base_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/greetings.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions/greetings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/sql_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_greetings_chat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/log/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663083572393</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="aiogram">
+      <created>1663083663501</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1663083663501</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

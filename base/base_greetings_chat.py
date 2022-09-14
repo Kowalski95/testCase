@@ -14,8 +14,15 @@ base.commit()
 """
 Создаем чат в БД с ИД и задаем статус присутствия по ID_Чата и булевому значению
 """
-async def add_chat(id, stat):
-    cur.execute('INSERT INTO chat VALUES(?, ?)', (id, stat))
+async def add_chat(chat_id, stat):
+    cur.execute('INSERT INTO chat VALUES(?, ?)', (chat_id, stat))
+    base.commit()
+
+"""
+Удалить данные по ID_чата
+"""
+async def del_chat(chat_id):
+    cur.execute('DELETE FROM chat WHERE chat_id == ?', (chat_id,))
     base.commit()
 
 """
@@ -24,6 +31,9 @@ async def add_chat(id, stat):
 async def get_chat_stat(chat_id):
     return cur.execute('SELECT stat FROM chat WHERE chat_id ==?', (chat_id,)).fetchone()[0]
 
+"""
+Проверка на наличие в БД ID_Чат
+"""
 async def get_chat_id(chat_id):
     r = cur.execute('SELECT chat_id FROM chat').fetchall()
     for scrol in r:
@@ -31,7 +41,6 @@ async def get_chat_id(chat_id):
             return True
         else:
             return False
-
 
 """
 Обновить статус бота.
