@@ -14,7 +14,10 @@ mainMenu.menu(dp)
 """
 @dp.message_handler()
 async def test(message : types.Message):
-    await bot.restrict_chat_member(message.chat.id, message.from_user.id, can_send_messages=False)
+    print(message.from_user.mention)
+    print(bot.get_me())
+    await message.answer(bot.get_me())
+    # await bot.restrict_chat_member(message.chat.id, message.from_user.id, can_send_messages=False)
 
 
 executor.start_polling(dp, skip_updates=True, on_startup=on_start)
